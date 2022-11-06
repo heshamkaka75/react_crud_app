@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
+  background-image: url('./Components/f1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+font-family: cursive;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: cursive;
 }
+
+h2{
+  color:rgb(28, 185, 80);
+  padding: 18px;
+  text-align: center;
+  font-size: 50px;
+  font-family:cursive
+}
+
+.holeApp{
+  padding: 30px;
+  background-color: rgb(223, 255, 215);
+  width: 80%;
+  margin: 100px auto;
+  box-shadow: 2px 2px 2px white;
+}
+
+input{
+width: 80%;
+border: 0;
+padding: 6px 10px;
+background: white;
+}
+
+button{
+width: 20%;
+border: 0;
+padding: 6px 0px;
+margin: 0;
+outline: 0;
+color: white;
+font-size: 20px;
+font-family: cursive;
+cursor: pointer;
+background: rgb(28, 185, 80);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+li span{
+  display: inline-block;
+  width: 60%;
+  color: rgb(9, 38, 39);
+}
+
+li > button:first-of-type {
+background:  rgb(28, 185, 80);
+color: white;
+margin-right: 1%;
+width: 19%;
+}
+
+li > button:last-of-type {
+  background: rgb(146, 7, 7);
+  color: white;
+  }
+
+  ul > form {
+    margin: 15px 0;
+  }
